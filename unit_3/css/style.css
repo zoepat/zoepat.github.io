@@ -1,7 +1,33 @@
-.slogan{
-	background-image: url("images/campaign.jpg");
+body{
+	background-color: #FEF9E7;
+	font-family: arial, sans-serif;
+	text-align: center;
 }
 
 h1{
-	background-color: #00000ff;
+	font-family: verdana;
+	font-size: 20px;
+	color: rgb(067,209,214)
 }
+
+h2,h3{
+	font-size: 16px;
+	color: rgb(162,160,168);
+}
+
+#slogan{
+	font-family: helvetica;
+	font-size: 16px;
+	font-style: italic;
+	color: rgb(124,186,214);
+}
+
+
+img{
+	width: 300px;
+	height: 300px;
+}	
+
+ ul{
+ list-style-type: none;
+ }
