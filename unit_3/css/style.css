@@ -1,14 +1,12 @@
 body{
 	background-color: #FEF9E7;
-	font-family: arial, sans-serif;
 	text-align: center;
 	padding: 25px 50px 75px 100px;
 }
 
-h1{
+header{
 	background-color: #D1F2EB;
-	text-align: left;
-	font-family: verdana;
+	font-family: helvetica;
 	font-size: 20px;
 	color: rgb(067,209,214)
 }
@@ -32,12 +30,11 @@ a{
 	color: rgb(124,186,214);
 }
 
-#Newarrivals{
-	text-align: : left;
-}
-
 img{
 	width: 600px;
 	height: 600px;
 }	
 
+footer{
+	text-align: left;
+}
