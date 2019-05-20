@@ -1,29 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 *{
-		margin: 0;
-		padding: 0;
-		box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
 body{
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
 	}
-
 header{
 		font-size: .75em;
+		position: fixed;
+		background-color: white;
+		width: 100%;
 	}
-
 h1 {
 		float: left;
-		padding: .6em;
+		padding: .9em 0 0 .5em;
 }
-
 header nav a:hover{
 		color: black;
 		background-color: #F5B7B1;
 }
-
 header nav a{
 		float: left;
 		font-size: 1.25em;
@@ -31,19 +29,35 @@ header nav a{
 		padding-top: 2%;
 		text-decoration: none
 	}
-
 #cart{
-		float: right;
-		display: inline-block;
-		width: 30em;
-		padding-top: 2%;
+	float: right;
+    display: inline-block;
+    width: 40em;
+    padding-right: 2em
 }
-input[type="submit"] {
-		font-family: 'Open Sans', sans-serif
-{
-	
+#cart form{
+	float: right;
+	padding-top: 2.2em;
+	display: block;
 }
-
+#cart a{
+    float: right;
+    font-size: 1.2em;
+    padding: 1em;
+    padding-top: 2em;
+}
+input[type="submit"]{
+    border-style: none;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    padding: .2em;
+   	font-size: 1.2em;
+   	cursor: pointer;
+}
+#cart a:hover{
+		color: black;
+		background-color: #F5B7B1;
+}
 .clearfix:after {
 	    visibility: hidden;
 	    display: block;
@@ -56,89 +70,92 @@ input[type="submit"] {
 #ABOUT img {
 		width: 100%;
 }
-
-#PRODUCT img{
+#PRODUCT img {
 		width: 100%;
 }
-
+#ABOUT h2{
+		padding-top: 1.5em;
+}
+#ABOUT p{
+		padding-bottom: 2em;
+}
+#PRODUCT h2{
+		padding-top: 1.5em;
+}
+#PRODUCT a{
+		padding-bottom: 2em;
+}
 #ABOUT{
 		float: left;
 		width: 50%;
 		text-align: center;
 		font-size: .85em;
 		}
-
 #PRODUCT{
 		float: right;
 		width: 50%;
 		text-align: center;
 		font-size: .85em;
 		}
-
 .promotion{
 		font-weight: lighter;
-		font-size: 12px;
-		border: 2px solid black;
-		clear: both;
-		text-align: center;
-		background-color: #F5B7B1;
-		padding: 4%;
+	    font-size: 12px;
+	    border: 2px solid black;
+	    clear: both;
+	    text-align: center;
+	    background-color: #FEF5E7;
+	    padding: 2em;
+	    width: 100%;
+	    margin: auto;
 		}
-
 a.promotion{
 		color: red;
 }
-
 .productspotlight{
 	    text-align: left;
 	    padding-left: 13%;
 	    padding-top: 2%;
 		}
-
 .productspotlight img{
 		padding-left: 2%;
 }
-
 ul{
+		padding-top: 8%;
 		list-style-type: none;
-		font-size: 16px;
 		float: left;
+		font-weight: lighter;
 		}
-
 article{
 		padding: 3%;
 		text-align: left;
 		padding-left: 40%;
 		padding-bottom: 2%
-		clear: both;
 		}
-
 article img{
-		padding-left: 2%;
+		padding-right: 2%;
+		padding-bottom: 5%;
 		float: left;
 }
-
+.newpost {
+		padding-top: 8%;
+}
 #blog{
-		background-color: #F5B7B1;
+		background-color: #FEF5E7;
 		border: 2px solid black;
-		padding: 4%;
+		padding: 2%;
 		clear: both;
 		}
-
 #blog a {
 		float: left;
 		margin: 2%;
 	}
-
 .story1,.story2,.story3{
-		border: 2px solid black;
+		border: 1px solid black;
 		float:left;
 		height: 10em;
 		width: 20%;
 		margin: 2%;
 }
-
-
 a{
 		color: #000000;
 		font-size: 1em;
@@ -150,33 +167,28 @@ a{
 a:hover {
 		color: #F39C12;
 		}
-
 .newsletter{
 		background-color: #E5E7E9;
-		margin-top: 2%;
-		height: 10em;
-		border: 2px solid black;
+		margin: 2% 40% 2% 30%;
+		padding: 4%;
+		width: 40%;
 }
-
-.newsletter h1{
-		text-align: center;
-		font-size: .75em;
+.newsletter form [type="submit"]{
+		text-decoration: none;
+		font-size: 1em;
 }
-
-.terms{
-		text-align: left;
-		font-family: 'Open Sans', serif;
-		word-spacing: 4px;
-	}
-
+.newsletter form [type="input"]{
+		padding: 1.5%;
+}
 footer{
-		font-size: .7em;
 		padding: 1%;
 		background-color: #E5E7E9;
 	}
-
+.terms{
+		float: left;
+		padding-left: 2%;
+	}
 .foot{
 		float: right;
+		width: 10em;
 }
-
-
