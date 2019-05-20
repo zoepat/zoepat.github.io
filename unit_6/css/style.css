@@ -6,25 +6,32 @@ body{
 	}
 
 header{
-		font-size: 18px;
-		padding: 2%;
+		font-size: .75em;
+		padding-left: 2%;
 	}
 
 h1 {
-	float: left;
+		float: left;
 }
 
-nav a{
+header nav a:hover{
+		color: black;
+		background-color: #F5B7B1;
+}
+
+header nav a{
 		float: left;
-		font-size: 18px;
+		font-size: 1.25em;
 		padding: 1%;
-		padding-top: 3%;
+		padding-top: 2%;
+		text-decoration: none
 	}
 
 form{
-		float: left;
-		padding: 2.5%;
-		padding-right: 10%;
+		float: right;
+		font-size: 1.25em;
+		padding: 1%;
+		padding-right: 10%;	
 }
 
 .clearfix:after {
@@ -36,22 +43,26 @@ form{
 	    height: 0;
 		}
 
-img {
-		align-content: center;
+#ABOUT img {
+		width: 100%;
+}
+
+#PRODUCT img{
+		width: 100%;
 }
 
 #ABOUT{
-		padding: 2%;
 		float: left;
-		width: 46%;
+		width: 50%;
 		text-align: center;
+		font-size: .85em;
 		}
 
 #PRODUCT{
-		padding: 2%;
 		float: right;
-		width: 46%;
+		width: 50%;
 		text-align: center;
+		font-size: .85em;
 		}
 
 .promotion{
@@ -65,18 +76,17 @@ img {
 		}
 
 a.promotion{
-		text-decoration: underline;
 		color: red;
 }
 
 .productspotlight{
-    text-align: left;
-    padding-left: 13%;
-    padding-top: 2%;
+	    text-align: left;
+	    padding-left: 13%;
+	    padding-top: 2%;
 		}
 
 .productspotlight img{
-	padding-left: 2%;
+		padding-left: 2%;
 }
 
 ul{
@@ -106,7 +116,6 @@ article img{
 		}
 
 #blog a {
-		text-decoration: underline;
 		float: left;
 		margin: 2%;
 	}
@@ -124,8 +133,8 @@ a{
 		color: #000000;
 		font-size: 1em;
 		font-family: 'Open Sans', sans-serif;
-		text-decoration: none;
 		display: block;
+		text-decoration: underline;
 		}
 
 a:hover {
@@ -133,22 +142,20 @@ a:hover {
 		}
 
 .terms{
-	text-align: left;
-	font-family: 'Open Sans', serif;
-	word-spacing: 4px;
+		text-align: left;
+		font-family: 'Open Sans', serif;
+		word-spacing: 4px;
 	}
 
 footer{
-	font-size: 8px;
-	margin: 5%;
-	padding: 1%;
-	background-color: #E5E7E9;
+		font-size: .7em;
+		margin: 5%;
+		padding: 1%;
+		background-color: #E5E7E9;
 	}
-footer a{
-		text-decoration: underline;
-}
+
 .foot{
-	float: right;
+		float: right;
 }
 
 
