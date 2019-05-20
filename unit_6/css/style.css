@@ -141,6 +141,18 @@ a:hover {
 		color: #F39C12;
 		}
 
+.newsletter{
+		background-color: #E5E7E9;
+		margin-top: 2%;
+		height: 10em;
+		border: 2px solid black;
+}
+
+.newsletter h1{
+		text-align: center;
+		font-size: .75em;
+}
+
 .terms{
 		text-align: left;
 		font-family: 'Open Sans', serif;
@@ -149,7 +161,6 @@ a:hover {
 
 footer{
 		font-size: .7em;
-		margin: 5%;
 		padding: 1%;
 		background-color: #E5E7E9;
 	}
