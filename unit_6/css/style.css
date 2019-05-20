@@ -1,112 +1,125 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
-		background-color: #FDFEFE;
-		text-align: center;
-		font-family: 'Open Sans', sans-serif;
-		color: #000000;
-		padding: 100px;
-}
-
-header{
-		background-color: #FFED74;
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
-		padding: 4px;
-		font-size: 18px;
-		color: #000000;
-		border: 2px solid black;
-}
-
-#top{
-		background-color: #E8C66A;
-		color: black;
-		font-size: 18px;
-		padding: 20px;
-		border: 2px solid black;
 	}
 
-
-div	{
-		background-color: #FFE2B8;
+header{
 		font-size: 18px;
-		}
+		padding: 2%;
+	}
+
+h1 {
+	float: left;
+}
 
 nav a{
-	float: left;
-	display: inline-block;
-	margin: 5px;
-}
-
-.clearfixa:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-#left{
-		background-color: #E582A2;
-		padding: 20px;
 		float: left;
-		width: 46%;
-		}
+		font-size: 18px;
+		padding: 1%;
+		padding-top: 3%;
+	}
 
-#right{
-		background-color: #E55B88;
-		padding: 20px;
-		float: right;
-		width: 46%;
-		}
+form{
+		float: left;
+		padding: 2.5%;
+		padding-right: 10%;
+}
 
 .clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+	    visibility: hidden;
+	    display: block;
+	    font-size: 0;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+		}
+
+img {
+		align-content: center;
 }
 
-#promotion{
-		background-color: #F5CBA7;
+#ABOUT{
+		padding: 2%;
+		float: left;
+		width: 46%;
+		text-align: center;
+		}
+
+#PRODUCT{
+		padding: 2%;
+		float: right;
+		width: 46%;
+		text-align: center;
+		}
+
+.promotion{
 		font-weight: lighter;
 		font-size: 12px;
 		border: 2px solid black;
 		clear: both;
-		}
-aside{
-		background-color: #FFC675;
-		padding: 2px 2px 2px 250px;
+		text-align: center;
+		background-color: #F5B7B1;
+		padding: 4%;
 		}
 
-#newproduct{
-		background-color: #E89C6C;
-		padding: 2px 2px 2px 150px;
-		text-align: left;
+a.promotion{
+		text-decoration: underline;
+		color: red;
+}
+
+.productspotlight{
+    text-align: left;
+    padding-left: 13%;
+    padding-top: 2%;
 		}
+
+.productspotlight img{
+	padding-left: 2%;
+}
+
 ul{
 		list-style-type: none;
 		font-size: 16px;
-		padding: 2px 2px 2px 10px;
-		}
-#blog{
-		background-color: #E89C6C;
-		text-align: right;
-		padding: 5px 30px 5px 500px;
+		float: left;
 		}
 
-#newsletter{
-		background-color: #FFE2B8;
-		border: 2px solid black;
-		padding: 2em 2em 2em 2em;
+article{
+		padding: 3%;
+		text-align: left;
+		padding-left: 40%;
+		padding-bottom: 2%
+		clear: both;
 		}
+
+article img{
+		padding-left: 2%;
+		float: left;
+}
+
+#blog{
+		background-color: #F5B7B1;
+		border: 2px solid black;
+		padding: 4%;
+		clear: both;
+		}
+
+#blog a {
+		text-decoration: underline;
+		float: left;
+		margin: 2%;
+	}
+
+.story1,.story2,.story3{
+		border: 2px solid black;
+		float:left;
+		height: 10em;
+		width: 20%;
+		margin: 2%;
+}
+
+
 a{
 		color: #000000;
 		font-size: 1em;
@@ -119,17 +132,23 @@ a:hover {
 		color: #F39C12;
 		}
 
-#terms{
+.terms{
 	text-align: left;
 	font-family: 'Open Sans', serif;
 	word-spacing: 4px;
 	}
 
 footer{
-	border: 2px solid black;
-	font-size: 14px;
-	background-color: #FF957E;
-	padding: 10px;
+	font-size: 8px;
+	margin: 5%;
+	padding: 1%;
+	background-color: #E5E7E9;
 	}
+footer a{
+		text-decoration: underline;
+}
+.foot{
+	float: right;
+}
 
 
