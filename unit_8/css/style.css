@@ -227,17 +227,39 @@ footer{
 	    padding: 0;
 		}
 }
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 500px)
 {
+	#cart a{
+		display: block;
+		position: absolute;
+	}
+	#ABOUT{
+		float: none;
+		width: 99%;
+	}
+	#PRODUCT{
+		float: none;
+		width: 99%;
+	}
 	.productspotlight img{
 		width: 100%;
+		padding: 0;
+	}
+	.productspotlight{
+		padding: 2%;
 	}
 	ul{
 		float: none;
+		font-size: 1.1em;
 		}
+	article{
+		padding: 2%;
+		font-size: 1.2em;
 
+	}
 	article img{
 		width: 100%;
+		padding: 0;
 		float: none;
 	}
 	.newpost {
@@ -248,5 +270,12 @@ footer{
 		margin: 2%;
 	}
 	.story1,.story2,.story3{
-		float: none;
-}
+		width: 29%;
+	}
+	.newsletter{
+		margin: 2%;
+    	padding: 2%;
+    	width: 96%;
+	}
+
+	}
