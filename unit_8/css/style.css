@@ -225,13 +225,14 @@ footer{
 	.promotion{
 	    font-size: .8em;
 	    padding: 0;
-		}
+	}
 }
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 510px)
 {
-	#cart a{
-		display: block;
-		position: absolute;
+	#cart{
+		display: none;
+		float:  none;
+		overflow: hidden;
 	}
 	#ABOUT{
 		float: none;
@@ -252,12 +253,11 @@ footer{
 		float: none;
 		font-size: 1.1em;
 		}
-	article{
+	article {
 		padding: 2%;
 		font-size: 1.2em;
-
 	}
-	article img{
+	article img {
 		width: 100%;
 		padding: 0;
 		float: none;
@@ -277,5 +277,4 @@ footer{
     	padding: 2%;
     	width: 96%;
 	}
-
-	}
+}
